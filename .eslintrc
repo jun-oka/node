@@ -1,3 +1,4 @@
+extends: "airbnb"
 env:
   node: true
   es6: true
@@ -27,6 +28,7 @@ rules:
   no-unsafe-negation: 2
   use-isnan: 2
   valid-typeof: 2
+  eqeqeq: 2
 
   # Best Practices
   # http://eslint.org/docs/rules/#best-practices
